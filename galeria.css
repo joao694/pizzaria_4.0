@@ -191,9 +191,23 @@ footer p {
 }
 @media screen and (max-width: 1080px) {
     .main{
-        width: 70vh;
+        width: 100%;
     }
     main{
-        min-height: 40vh;
+        min-height: 100%;
     }
   }
+@media screen and (max-width: 1080px) {
+    header p{
+      font-size: 10px;
+      padding-left: 0px;
+      padding-right: 5px;
+    }
+    header img{
+        width: 80px;
+    }
+    main{
+        min-height: 60vh;
+    }
+  }
+  
